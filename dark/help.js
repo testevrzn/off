@@ -2,7 +2,7 @@ const help = () => {
 	return `
 ╔══✪〘 INFO 〙✪══
 ║
-╠OLA 
+╠OLA *${mdata.subject}*
 ║
 ╠➥ Vrau Bot
 ╠➥ *3.2*
