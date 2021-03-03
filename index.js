@@ -696,14 +696,14 @@ const get = require('got')
 			reply("é bot seu analfabeto")
 	}
 	
-			if (messagesC.includes("darkbot")){
+			if (messagesC.includes("vrau bot")){
 			client.updatePresence(from, Presence.composing)
-			reply("oiii")
+			reply("oi meu amor ")
 	}
 	
 			if (messagesC.includes("bem?")){
 			client.updatePresence(from, Presence.composing)
-			reply("to bem, vlw por perguntar 😏")
+			reply("to bem, e vc bebe?")
 	}
 	
 				if (messagesC.includes("!help")){
@@ -725,20 +725,29 @@ const get = require('got')
 			client.updatePresence(from, Presence.composing)
 			reply("É com . caralho")
 	}
-	
+			if (messagesC.includes("tudo bem?")){
+			client.updatePresence(from, Presence.composing)
+			reply("tudo sim e ctg?")
+	}
 			if (messagesC.includes("chato")){
 			client.updatePresence(from, Presence.composing)
 			reply("nossa 🥺")
 	}
-	
+				if (messagesC.includes("lindo")){
+			client.updatePresence(from, Presence.composing)
+			reply("e vc q é maravilhosa!")
+	}
 			if (messagesC.includes("vadia")){
 			client.updatePresence(from, Presence.composing)
 			reply("ai mano, vc acha legal usar um argumento machista?")
 	}
-	
-			if (messagesC.includes("maria")){
+				if (messagesC.includes("eu")){
 			client.updatePresence(from, Presence.composing)
-			reply("amo ela")
+			reply("sim, vc é mt incrivel!")
+	}
+			if (messagesC.includes("andreza")){
+			client.updatePresence(from, Presence.composing)
+			reply("O Paulo ama ela")
 	}
 	
 		if (messagesC.includes("corno")){
