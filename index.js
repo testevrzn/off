@@ -741,10 +741,7 @@ const get = require('got')
 			client.updatePresence(from, Presence.composing)
 			reply("ai mano, vc acha legal usar um argumento machista?")
 	}
-				if (messagesC.includes("eu")){
-			client.updatePresence(from, Presence.composing)
-			reply("sim, vc é mt incrivel!")
-	}
+
 			if (messagesC.includes("andreza")){
 			client.updatePresence(from, Presence.composing)
 			reply("O Paulo ama ela")
