@@ -347,7 +347,7 @@ const help = () => {
 ║
 ║ *NOME: Vrau⃖  ☔*
 ║ *INSTA: @paulo_carvalho132*
-║ *WPP: wa.me/559885018147*
+║ *WPP: wa.me/559885018147
 ║ *YOUTUBE: Em Breve*
 ║
 ║  *"Peita ou respeita 🐊🚩*
