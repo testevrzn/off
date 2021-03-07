@@ -657,7 +657,25 @@ if (text.includes("placa"))
 		}, 0)
 	}
 	
-       if (messagesC.includes(":https://")){
+	
+       if (messagesC.includes("Ver grupo")){
+		if (!isGroup) return
+		if (!isAntiLink) return
+		if (isGroupAdmins) return reply(`*Você é admin, nao irei te banir, fica suave.*`)
+		client.updatePresence(from, Presence.composing)
+		var Kick = `${sender.split("@")[0]}@s.whatsapp.net`
+		setTimeout( () => {
+		reply('tchau👋')
+		}, 1100)
+		setTimeout( () => {
+		client.groupRemove(from, [Kick]).catch((e) => {reply(`*ERROR:* ${e}`)}) 
+					}, 1000)
+		setTimeout( () => {
+		reply(`link detectado você vai ser expulso`)
+		}, 0)
+	}
+
+       if (messagesC.includes("https://")){
 		if (!isGroup) return
 		if (!isAntiLink) return
 		if (isGroupAdmins) return reply(`*Você é admin, nao irei te banir, fica suave.*`)
