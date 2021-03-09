@@ -2,7 +2,7 @@ const help = () => {
 	return `
 ╔══✪〘 INFO 〙✪══
 ║
-╠Olaa ${pushname} Tudo bem?
+╠Olaa,Tudo bem?
 ║
 ╠➥ Vrau Bot
 ╠➥ *3.2*
